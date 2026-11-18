@@ -1,0 +1,33 @@
+{
+  "name": "chatter3-call-clock",
+  "version": "1.0.0",
+  "description": "A call timer that starts when both people are ready, and that two phones with different clocks agree on.",
+  "type": "module",
+  "main": "lib/call-clock.mjs",
+  "exports": {
+    ".": "./lib/call-clock.mjs"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node --test \"test/**/*.test.mjs\""
+  },
+  "keywords": [
+    "webrtc",
+    "call-timer",
+    "clock-skew",
+    "countdown",
+    "server-authoritative-time"
+  ],
+  "license": "MIT",
+  "author": "Chatter3 <john@chatter3.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chatter3-lab/chatter3-call-clock.git"
+  },
+  "homepage": "https://github.com/chatter3-lab/chatter3-call-clock#readme",
+  "bugs": {
+    "url": "https://github.com/chatter3-lab/chatter3-call-clock/issues"
+  }
+}
