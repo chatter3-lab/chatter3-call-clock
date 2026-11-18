@@ -29,5 +29,8 @@
   "homepage": "https://github.com/chatter3-lab/chatter3-call-clock#readme",
   "bugs": {
     "url": "https://github.com/chatter3-lab/chatter3-call-clock/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
